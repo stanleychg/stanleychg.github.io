@@ -70,7 +70,7 @@ html, body{
     background-size: cover;
     background-repeat:no-repeat;
     background-position:center;
-    background-image: url("/img/img3.jpg");
+    background-image: url("/img/img3_lowres.jpg");
     background: rgba(63,63,63,0.);
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
 /*    padding-bottom: 100px;*/
@@ -213,5 +213,13 @@ a:hover{
     
     .hero-inprogress{
         font-size: 3rem;
+    }
+    
+}
+
+/* Most likely desktop */
+@media only screen and (min-width: 1000px) {
+    .hero{
+        background-image: url("/img/img3.jpg");
     }
 }
