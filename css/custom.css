@@ -3,6 +3,7 @@ html, body{
     width: 100%;
     font-size: 12px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -48,7 +49,8 @@ html, body{
 .title-text{
     /* Stanley Cheung: */
     display: block;
-    font-family: AvenirNext-Bold;
+    /* Stanley Cheung: */
+    font-family: OpenSans-Bold;
     font-size: 3rem;
     color: #FFFFFF;
     padding-top: 0.3125rem;
@@ -77,6 +79,8 @@ html, body{
     padding-top: 75px;
     padding-bottom: 150px;
     z-index: -1;
+    
+    
 }
 
 .hero::before{
@@ -89,11 +93,13 @@ html, body{
     right: 0;
     background: rgba(0,0,0,0.25);
     z-index:0;
+    
+
 }
 
 .hero-title{
     /* Main Body: */
-    font-family: AvenirNext-Bold;
+    font-family: OpenSans-Bold;
     font-size: 4rem;
     color: #FFFFFF;
     text-align: center;
@@ -103,9 +109,10 @@ html, body{
 
 .hero-inprogress{
     /* <Site currently in work>: */
-    font-family: AvenirNext-UltraLightItalic;
+    font-family: OpenSansLight-Italic;
     font-size: 2.5rem;
     color: #FFFFFF;
+    opacity: 0; /* Hide for now */
     text-align: center;
     margin-bottom: 3.375rem;
 }
@@ -117,7 +124,7 @@ html, body{
     /* Line: */
 /*    border: 1px solid #979797;*/
     /* Services: */
-    font-family: AvenirNext-Bold;
+    font-family: OpenSans-Bold;
     font-size: 1.875rem;
     color: #4A4A4A;
     width: 24.5rem;
@@ -132,14 +139,14 @@ html, body{
 
 .hero-services-item{
     /* Item: */
-    font-family: AvenirNext-Regular;
+    font-family: OpenSans;
     font-size: 1.5rem;
     color: #4A4A4A;
-    line-height: 1.625rem;
+    line-height: 1.75rem;
     margin-left: 2.75rem;
 }
 
-.email{
+.action{
     position: fixed;
     width: 100%;
     text-align: center;
@@ -148,7 +155,25 @@ html, body{
     z-index: 2;
 }
 
-.hero-email{
+.action-doc{
+    display: inline-block;    
+    height: 72px;
+    width: 72px;
+    background: #CEC224;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 50px;  
+    font-size: 48px;
+    margin-right: 2.5rem;
+}
+
+.action-doc-icon{
+    position: relative;
+    bottom: 4px;
+    color: white;
+}
+
+.action-email{
     display: inline-block;    
     height: 72px;
     width: 72px;
@@ -158,19 +183,21 @@ html, body{
     border: 4px solid #FFFFFF;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.50);
     border-radius: 50px;  
-    
     font-size: 48px;
+    margin-left: 2.5rem;
+}
+
+.action-email-icon{
+    position: relative;
+    bottom: 4px;
+    color: white;
 }
 
 a:hover{
     background: #279330;
 }
 
-.hero-email-icon{
-    position: relative;
-    bottom: 4px;
-    color: white;
-}
+
 
 .last{
     padding-bottom: 18px;
