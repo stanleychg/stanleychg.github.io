@@ -130,6 +130,9 @@ html, body{
     width: 24.5rem;
     margin: auto;
     margin-bottom: 2rem;
+    
+    opacity:0.90;
+    background-color: #EFEFEF;
 }
 
 .hero-services-title{
