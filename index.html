@@ -6,93 +6,108 @@
     <title>Stanley Cheung</title>
     <meta name="description" content="">
     <meta name="author" content="SC">
-    
+
     <!-- Mobile Specific Metas
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>-->
+    <!--    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    
-<!--    161228 Very Important! Responsible for providing consistent look between live preview and actual!-->
-    <link rel="stylesheet" href="/css/normalize.css">
-    
-    <link rel="stylesheet" href="/css/skeleton.css">
-    <link rel="stylesheet" href="css/custom.css">
+
+    <!--    161228 Very Important! Responsible for providing consistent look between live preview and actual!-->
+    <link type="text/css" rel="stylesheet" href="./css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="./css/skeleton.css">
+    <link type="text/css" rel="stylesheet" href="./css/custom.css">
 
     <!-- Scripts
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/e7995484ac.js"></script>
-    
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-89657505-1', 'auto');
-      ga('send', 'pageview');
+    <script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-89657505-1', 'auto');
+		ga('send', 'pageview');
 
     </script>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--    <link rel="icon" type="image/png" href="../../dist/images/favicon.png">-->
-    
+    <!--    <link rel="icon" type="image/png" href="../../dist/images/favicon.png">-->
 
 </head>
 <body>
-    <div class="section header">
-        <div class="title-text">
-            <p>Stanley Cheung</p>
-        </div>
-        
+<div class="container">
+    <div class="row" id="spacer">
+
     </div>
-    <div class="section hero">
-        <div class="container">
-          <div class="hero-title">
-              Computer Scientist <br/>& Software Developer
-          </div>
-          <div class="hero-inprogress">
-              &lt;Site currently  in work&gt;
-          </div>
-
-          <div class="hero-services">
-              <div class="hero-services-title">
-                  Services
-              </div>
-              <div class="hero-services-item">
-                  Java/Android App Developer
-              </div>
-              <div class="hero-services-item">
-                  Robotics Mentor
-              </div>
-              <div class="hero-services-item last">
-                  Teacher
-              </div>
-          </div>
-
+    <div class="row" id="header">
+        <div class="two columns" id="menu">
+            <img src="./img/ic_menu_white_24dp_1x.png"/>
+        </div>
+        <div class="ten columns" id="app-title">
+            Stanley Cheung
         </div>
     </div>
-    
-    <div class="section action">
-        <div class="container">
-            <a href="assets/resumecv170121_2142_ONLINE.pdf" target="_blank" class="action-doc">
-                <i class="fa fa-file-text-o   action-doc-icon" aria-hidden="true"></i>
-            </a>
-            
-            <a href="mailto:inquiry@stanleychg.com" target="_blank" class="action-email">
+    <div class="row" id="status">
+        <div class="two columns category">
+            Status:
+        </div>
+        <div class="ten columns desc">
+            Freelancer (Currently Accepting Inquiries)
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            <hr/>
+        </div>
+    </div>
+    <div class="row info">
+        <div class="two columns category">
+            Specialty:
+        </div>
+        <div class="ten columns desc">
+            Mobile App Development (Android, iOS)
+        </div>
+    </div>
+    <div class="row info">
+        <div class="two columns category">
+            Languages:
+        </div>
+        <div class="ten columns desc">
+            Java<br>Kotlin<br>Swift
+        </div>
+    </div>
+    <div class="row info">
+        <div class="two columns category">
+            Learning:
+        </div>
+        <div class="ten columns desc">
+            Web Development<br>Artificial Intelligence<br>Cyber Security<br>Distributed Systems
+        </div>
+    </div>
+    <div class="row action">
+        <div class="twelve columns">
+            <a href="mailto:inquiry@stanleychg.com" target="_blank" id="action-email">
                 <i class="fa fa-envelope-o action-email-icon" aria-hidden="true"></i>
             </a>
         </div>
     </div>
-    
-    <div class="section footer">
-    </div>
+</div>
 </body>
 </html>
