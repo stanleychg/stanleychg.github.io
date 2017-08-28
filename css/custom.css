@@ -91,6 +91,7 @@ html, body {
     width: 100%;
     max-width: 512px;
     background-color: whitesmoke;
+    padding: 0px;
 }
 
 .row {
